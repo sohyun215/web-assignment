@@ -6,4 +6,8 @@
   body {
     @apply bg-bgPrimary antialiased;
   }
+
+  main {
+    @apply min-h-dvh;
+  }
 }
