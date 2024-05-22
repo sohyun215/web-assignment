@@ -1,9 +1,9 @@
 'use client';
 
-import { cn } from '@/utils/style';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
+import { cn } from '@/utils/style';
 interface NavItemProps {
   path: string;
   name: string;
@@ -22,7 +22,7 @@ const NavItem = ({ path, name, Icon }: NavItemProps) => {
       </Link>
       <span
         className={cn(
-          'text-mainGray text-sm',
+          'text-xs text-mainGray',
           path === pathname && 'text-green01',
         )}
       >

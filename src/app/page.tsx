@@ -1,9 +1,11 @@
+import Header from '@/components/common/Header';
 import NavBar from '@/components/common/NavBar';
 
 const HomePage = () => {
   return (
     <>
-      <main></main>
+      <Header title="홈" />
+      <main className="pt-16"></main>
       <NavBar />
     </>
   );
