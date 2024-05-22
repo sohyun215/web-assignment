@@ -1,5 +1,5 @@
 import { Product } from '@/types/product';
-import ProductCard from '../Card/ProductCard';
+import ProductCard from './ProductCard';
 
 const ProductList = async () => {
   const res = await fetch('http://localhost:3000/api/product');

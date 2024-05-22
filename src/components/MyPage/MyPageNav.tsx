@@ -7,7 +7,7 @@ const MyPageNav = () => {
       <li className="block w-16">
         <Link
           href="/mypage/wishlist"
-          className="flex flex-col items-center justify-center"
+          className="flex flex-col items-center justify-center gap-1"
         >
           <Image
             src="/icons/heart.svg"
@@ -21,7 +21,7 @@ const MyPageNav = () => {
       <li className="block w-16">
         <Link
           href="/mypage/coupon"
-          className="flex flex-col items-center justify-center"
+          className="flex flex-col items-center justify-center gap-1"
         >
           <Image
             src="/icons/coupon.svg"
@@ -35,7 +35,7 @@ const MyPageNav = () => {
       <li className="block w-16">
         <Link
           href="/mypage/point"
-          className="flex flex-col items-center justify-center"
+          className="flex flex-col items-center justify-center gap-1"
         >
           <Image
             src="/icons/point.svg"

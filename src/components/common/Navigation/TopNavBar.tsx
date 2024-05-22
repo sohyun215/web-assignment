@@ -10,7 +10,7 @@ const TopNavBar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed top-0 z-20 hidden h-16 w-full items-center shadow-[0_3px_16px_1px_rgba(0,0,0,0.05)] lg:flex">
+    <nav className="fixed top-0 z-20 hidden h-16 w-full items-center bg-white shadow-[0_3px_16px_1px_rgba(0,0,0,0.05)] lg:flex">
       <div className="mx-auto flex w-full items-center justify-between px-4 lg:w-[1024px]">
         <h1 className="text-xl font-bold">Logo</h1>
         <ul className="flex gap-8 text-lg">

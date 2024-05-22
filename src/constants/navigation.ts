@@ -1,7 +1,7 @@
-import HomeIcon from '@/components/NavIcon/HomeIcon';
-import MagazineIcon from '@/components/NavIcon/MagazineIcon';
-import MypageIcon from '@/components/NavIcon/MypageIcon';
-import StoreIcon from '@/components/NavIcon/StoreIcon';
+import HomeIcon from '@/components/Icon/HomeIcon';
+import MagazineIcon from '@/components/Icon/MagazineIcon';
+import MypageIcon from '@/components/Icon/MypageIcon';
+import StoreIcon from '@/components/Icon/StoreIcon';
 
 export const NAVIGATIONS = [
   { path: '/', name: '홈', icon: HomeIcon },
