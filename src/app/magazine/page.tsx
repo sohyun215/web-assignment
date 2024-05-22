@@ -1,11 +1,21 @@
+import { Suspense } from 'react';
+
+import RecommendedContentContainer from '@/components/Magazine/RecommendedContentContainer';
+import VideoContainer from '@/components/Magazine/VideoContainer';
 import Header from '@/components/common/Header';
 import NavBar from '@/components/common/NavBar';
+import VideoSkeleton from '@/components/common/Skeleton/VideoSkeleton';
 
 const MagazinePage = () => {
   return (
     <>
       <Header title="매거진" />
-      <main className="pt-16">매거진</main>
+      <main className="px-4 pb-24 pt-20">
+        <Suspense fallback={<VideoSkeleton />}>
+          <VideoContainer />
+        </Suspense>
+        <RecommendedContentContainer />
+      </main>
       <NavBar />
     </>
   );

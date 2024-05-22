@@ -22,6 +22,7 @@ const config: Config = {
         mainText: '#121b0e',
         mainGray: '#4C4C4C',
         mainRed: '#EE5D5D',
+        skeleton: '#D9D9D9',
       },
       boxShadow: {
         card: '3px 3px 15px 0 rgba(0,0,0,0.1)',

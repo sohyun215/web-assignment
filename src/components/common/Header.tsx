@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Header = ({ title }: { title?: string }) => {
   return (
-    <header className="bg-bgIvory fixed flex h-16 w-full items-center justify-between px-4 font-semibold">
-      <h1>{title}</h1>
+    <header className="fixed flex h-16 w-full items-center justify-between bg-bgIvory px-4">
+      <h1 className="font-bold">{title}</h1>
       <Link href="/cart">
         <Image
           src="/icons/cart.svg"
