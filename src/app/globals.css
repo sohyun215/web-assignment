@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-bgPrimary antialiased;
+    @apply bg-bgPrimary leading-snug text-mainText antialiased;
   }
 
   main {

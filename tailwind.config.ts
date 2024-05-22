@@ -21,6 +21,10 @@ const config: Config = {
         bgIvory: '#FCFAF8',
         mainText: '#121b0e',
         mainGray: '#4C4C4C',
+        mainRed: '#EE5D5D',
+      },
+      boxShadow: {
+        card: '3px 3px 15px 0 rgba(0,0,0,0.1)',
       },
     },
   },
