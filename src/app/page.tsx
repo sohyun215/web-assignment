@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <Header title="홈" />
-      <main className="px-4 pb-[70px] pt-24">
+      <main className="mx-auto px-4 pb-[70px] pt-24 lg:w-[1024px]">
         <CarouselBanner />
         <CategoryCardContainer />
       </main>

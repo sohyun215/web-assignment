@@ -21,7 +21,7 @@ const CarouselBanner = () => {
       autoplay={{
         delay: 4000,
       }}
-      className="mb-4 h-[154px] w-full rounded-[10px] bg-white"
+      className="mb-4 h-[154px] w-full rounded-[10px] bg-white md:h-96"
     >
       {DUMMY_IMAGES.map((img) => (
         <SwiperSlide key={img}>
@@ -30,7 +30,7 @@ const CarouselBanner = () => {
             width={0}
             height={0}
             sizes="100vw"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-fill"
             alt="배너 이미지"
           />
         </SwiperSlide>

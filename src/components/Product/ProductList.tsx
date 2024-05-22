@@ -59,7 +59,7 @@ const DUMMY_PRODUCTS = [
 
 const ProductList = () => {
   return (
-    <ul>
+    <ul className="mx-auto grid gap-4 lg:grid-cols-4 lg:gap-8">
       {DUMMY_PRODUCTS.map((product) => (
         <ProductCard key={product.productNo} {...product} />
       ))}

@@ -10,7 +10,7 @@ const MagazinePage = () => {
   return (
     <>
       <Header title="매거진" />
-      <main className="px-4 pb-24 pt-20">
+      <main className="px-4 pb-24 pt-20 lg:mx-auto lg:w-[1024px]">
         <Suspense fallback={<VideoSkeleton />}>
           <VideoContainer />
         </Suspense>

@@ -23,15 +23,19 @@ const ProductCard = ({
   const discountPrice = price - (price * discountRate) / 100;
 
   return (
-    <li className="shadow-card mt-4 block h-[119px] w-full rounded-[10px] p-2">
-      <Link href={`/product/detail/${productNo}`} className="flex h-full gap-4">
+    <li className="shadow-card block h-[119px] w-full rounded-[10px] p-2 md:h-40 lg:h-96 lg:w-56">
+      <Link
+        href={`/product/detail/${productNo}`}
+        className="flex h-full gap-4 lg:flex-col"
+      >
         <Image
           src={imageUrl}
           priority
-          width={105}
-          height={105}
+          width={0}
+          height={0}
+          sizes="100vw"
           alt={productName}
-          className="h-auto rounded-md object-cover"
+          className="h-[105px] w-[105px] rounded-md object-cover md:h-36 md:w-36 lg:h-64 lg:w-full"
         />
         <div className="flex flex-col justify-between">
           <div className="flex flex-col">

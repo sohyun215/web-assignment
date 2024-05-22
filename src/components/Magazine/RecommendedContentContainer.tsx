@@ -31,12 +31,13 @@ const RecommendedContentContainer = () => {
       <h2 className="mb-4 font-bold">추천 컨텐츠</h2>
       <ul className="flex flex-col gap-4">
         {DUMMY_DATA.map((content) => (
-          <li key={content.articleNo} className="flex h-[60px] gap-3">
+          <li key={content.articleNo} className="flex h-[60px] gap-3 md:h-24">
             <Image
               src={content.imageUrl}
-              width={60}
-              height={60}
-              className="rounded-md object-cover"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="h-[60px] w-[60px] rounded-md object-cover md:h-24 md:w-24"
               alt={content.title}
             />
             <div className="flex h-full flex-col justify-center gap-2 text-xs">

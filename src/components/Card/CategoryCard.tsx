@@ -11,7 +11,7 @@ const CategoryCard = ({ title, iconImg, path }: CategoryCardProps) => {
   return (
     <Link
       href={path}
-      className="shadow-card flex h-[89px] min-w-[156px] grow cursor-pointer flex-col justify-between rounded-[10px] bg-white p-[10px] transition ease-in-out hover:scale-105"
+      className="shadow-card flex h-[89px] min-w-[156px] flex-1 cursor-pointer flex-col justify-between rounded-[10px] bg-white p-[10px] transition ease-in-out hover:scale-105 md:h-40 md:p-5"
     >
       <h2 className="font-bold">{title}</h2>
       <div className="self-end">

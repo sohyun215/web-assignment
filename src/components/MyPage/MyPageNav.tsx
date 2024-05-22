@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 const MyPageNav = () => {
   return (
-    <ul className="flex justify-between py-5">
+    <ul className="flex justify-between py-5 md:justify-evenly">
       <li className="block w-16">
         <Link
-          href="wishlist"
+          href="/mypage/wishlist"
           className="flex flex-col items-center justify-center"
         >
           <Image
@@ -20,7 +20,7 @@ const MyPageNav = () => {
       </li>
       <li className="block w-16">
         <Link
-          href="coupon"
+          href="/mypage/coupon"
           className="flex flex-col items-center justify-center"
         >
           <Image
@@ -34,7 +34,7 @@ const MyPageNav = () => {
       </li>
       <li className="block w-16">
         <Link
-          href="point"
+          href="/mypage/point"
           className="flex flex-col items-center justify-center"
         >
           <Image
