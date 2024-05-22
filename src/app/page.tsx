@@ -1,7 +1,7 @@
 import CategoryCardContainer from '@/components/Card/CategoryCardContainer';
 import CarouselBanner from '@/components/Carousel/CarouselBanner';
 import Header from '@/components/common/Header';
-import NavBar from '@/components/common/NavBar';
+import BottomNavBar from '@/components/common/Navigation/BottomNavBar';
 
 const HomePage = () => {
   return (
@@ -11,7 +11,7 @@ const HomePage = () => {
         <CarouselBanner />
         <CategoryCardContainer />
       </main>
-      <NavBar />
+      <BottomNavBar />
     </>
   );
 };

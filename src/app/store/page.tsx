@@ -1,6 +1,6 @@
 import ProductList from '@/components/Product/ProductList';
 import Header from '@/components/common/Header';
-import NavBar from '@/components/common/NavBar';
+import BottomNavBar from '@/components/common/Navigation/BottomNavBar';
 
 const StorePage = () => {
   return (
@@ -9,7 +9,7 @@ const StorePage = () => {
       <main className="mx-auto px-4 pb-24 pt-20 lg:w-[1024px]">
         <ProductList />
       </main>
-      <NavBar />
+      <BottomNavBar />
     </>
   );
 };

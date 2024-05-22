@@ -2,7 +2,7 @@ import MyInfoContainer from '@/components/MyPage/MyInfoContainer';
 import MyPageMenu from '@/components/MyPage/MyPageMenu';
 import MyPageNav from '@/components/MyPage/MyPageNav';
 import Header from '@/components/common/Header';
-import NavBar from '@/components/common/NavBar';
+import BottomNavBar from '@/components/common/Navigation/BottomNavBar';
 
 const MyPage = () => {
   return (
@@ -16,7 +16,7 @@ const MyPage = () => {
           로그아웃
         </button>
       </main>
-      <NavBar />
+      <BottomNavBar />
     </>
   );
 };

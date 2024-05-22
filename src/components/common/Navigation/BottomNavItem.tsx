@@ -10,7 +10,7 @@ interface NavItemProps {
   Icon: ({ className }: { className: string }) => JSX.Element;
 }
 
-const NavItem = ({ path, name, Icon }: NavItemProps) => {
+const BottomNavItem = ({ path, name, Icon }: NavItemProps) => {
   const pathname = usePathname();
 
   return (
@@ -32,4 +32,4 @@ const NavItem = ({ path, name, Icon }: NavItemProps) => {
   );
 };
 
-export default NavItem;
+export default BottomNavItem;

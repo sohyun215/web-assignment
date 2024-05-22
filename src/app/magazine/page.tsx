@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import RecommendedContentContainer from '@/components/Magazine/RecommendedContentContainer';
 import VideoContainer from '@/components/Magazine/VideoContainer';
 import Header from '@/components/common/Header';
-import NavBar from '@/components/common/NavBar';
+import BottomNavBar from '@/components/common/Navigation/BottomNavBar';
 import VideoSkeleton from '@/components/common/Skeleton/VideoSkeleton';
 
 const MagazinePage = () => {
@@ -16,7 +16,7 @@ const MagazinePage = () => {
         </Suspense>
         <RecommendedContentContainer />
       </main>
-      <NavBar />
+      <BottomNavBar />
     </>
   );
 };
