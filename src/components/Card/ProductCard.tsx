@@ -2,15 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { cn } from '@/utils/style';
-
-interface ProductCardProps {
-  productNo: number;
-  productName: string;
-  price: number;
-  discountRate: number;
-  imageUrl: string;
-  freeShipping: boolean;
-}
+import { Product } from '@/types/product';
 
 const ProductCard = ({
   productNo,
@@ -19,7 +11,7 @@ const ProductCard = ({
   discountRate,
   imageUrl,
   freeShipping,
-}: ProductCardProps) => {
+}: Product) => {
   const discountPrice = price - (price * discountRate) / 100;
 
   return (
