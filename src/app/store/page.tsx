@@ -1,5 +1,12 @@
+import NavBar from '@/components/common/NavBar';
+
 const StorePage = () => {
-  return <div>스토어</div>;
+  return (
+    <>
+      <main>스토어</main>
+      <NavBar />
+    </>
+  );
 };
 
 export default StorePage;

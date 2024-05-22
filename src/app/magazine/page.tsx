@@ -1,5 +1,12 @@
+import NavBar from '@/components/common/NavBar';
+
 const MagazinePage = () => {
-  return <div>매거진</div>;
+  return (
+    <>
+      <main>매거진</main>
+      <NavBar />
+    </>
+  );
 };
 
 export default MagazinePage;
